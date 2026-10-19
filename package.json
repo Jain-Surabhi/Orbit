@@ -1,0 +1,12 @@
+{
+  "name": "orbit-chatbot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Orbit, a general-purpose AI chatbot powered by Groq",
+  "scripts": {
+    "dev": "node dev-server.js",
+    "dev:mock": "node dev-server.js --mock",
+    "test": "node test/api.test.js"
+  },
+  "engines": { "node": ">=18" }
+}
